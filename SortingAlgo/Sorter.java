@@ -1,4 +1,5 @@
 
 public interface Sorter {
-	public int[] sort(int[] unsorted);
+	public String getName();
+	public void sort(int[] unsorted);
 }
