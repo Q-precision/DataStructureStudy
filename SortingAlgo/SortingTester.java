@@ -7,12 +7,12 @@ public class SortingTester {
 		mySorter.strategy =  new BubbleSort();
 		mySorter.sortAndPrint( unsortedArray );
 
-		int[] unsortedArray2 = {10, 1, 5, 3};
+		int[] unsortedArray2 = {9, 2, 5, 3};
 		mySorter.strategy =  new MergeSort();
-		mySorter.sortAndPrint( unsortedArray );
+		mySorter.sortAndPrint( unsortedArray2 );
 
-		int[] unsortedArray3 = {10, 1, 5, 3};
+		int[] unsortedArray3 = {8, 1, 10 89};
 		mySorter.strategy =  new QuickSort();
-		mySorter.sortAndPrint( unsortedArray );
+		mySorter.sortAndPrint( unsortedArray3 );
 	}
 }
